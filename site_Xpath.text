@@ -1,0 +1,18 @@
+1. Retrieve the username of the user profile:
+
+XPath Expression: `/soupio_site/user_profile/username`
+
+Result: `Haider Ali Khan`
+
+2. Retrieve the content of the first post:
+
+XPath Expression: `/soupio_site/latest_posts/post[1]/content`
+
+Result: `The Early Days: Baby Monitors
+The inception of child safety technologies can be traced back to the simple yet revolutionary baby monitor. Introduced to give parents the ability to hear their child from another room, these devices marked the first step towards using technology to monitor and ensure children’s safety remotely. The initial models were purely audio-based, a significant innovation at the time, allowing parents to respond promptly to their child’s needs without being in the same room. As these devices gained popularity, they spurred the development of more sophisticated versions, incorporating features like two-way communication, allowing parents to listen and talk back to their children.This evolution marked the beginning of a new era in child safety, where distance was no longer a barrier to effective parental supervision. The baby monitor’s journey from simple audio devices to complex systems integrating video and even Wi-Fi connectivity underscores the relentless pursuit of innovation in child safety.`
+
+3. Retrieve the number of likes for the second post:
+
+XPath Expression: `/soupio_site/latest_posts/post[2]/likes`
+
+Result: `50`
